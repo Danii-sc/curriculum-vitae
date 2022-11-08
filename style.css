@@ -133,6 +133,8 @@ table{
     text-decoration: none;
 }
 #contacto a:hover{
-    color: white;
+    font-family: sans-serif;
+    color: green;
     text-decoration: underline;
+    transition: color 0.5s;
 }
