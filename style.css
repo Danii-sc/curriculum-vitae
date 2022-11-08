@@ -8,9 +8,33 @@ html{
 }
 
 body{
-    background: linear-gradient(blueviolet, blue);
+    background-color: #ededed;
     height: 100%;
     width: 100%;
+}
+
+h1{
+    font-size: 2em;
+    text-align: center;
+    padding-bottom: 2%;
+    border-bottom: 5px solid black;
+}
+
+#left{
+    float: left;
+    width: calc(30% - 20px);
+    background: linear-gradient(blueviolet, blue);
+    margin: auto;
+    padding: 0%;
+    border-right: 3px solid black;
+    color: white;
+}
+
+#right{
+    float: right;
+    width: calc(70% - 20px);
+    margin: auto;
+    padding: 0%;
 }
 
 #nombre{
@@ -25,10 +49,3 @@ body{
     display: block;
     margin: auto;
 }
-
-.left{
-    max-width: 450px;
-    min-width: 450px;
-}
-
-
