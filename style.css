@@ -4,37 +4,54 @@
 }
 
 html{
-    height: 100%;
+    height: 1400px;
+    width: 100%;
 }
 
 body{
     background-color: #ededed;
     height: 100%;
-    width: 100%;
+}
+
+#container{
+    margin: 0px auto;
+    width: 85%;
 }
 
 h1{
-    font-size: 2em;
+    font-family: fantasy;
+    font-size: 3em;
     text-align: center;
     padding-bottom: 2%;
-    border-bottom: 5px solid black;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-bottom: 10px solid transparent;
+    border-image: linear-gradient(45deg, blueviolet, blueviolet,blue, blue) 1;
+}
+h3{
+    font-size: 1.5em;
+}
+p{
+    font-size: 1em;
 }
 
 #left{
     float: left;
-    width: calc(30% - 20px);
-    background: linear-gradient(blueviolet, blue);
-    margin: auto;
+    width: calc(30% - 4px);
+    background: linear-gradient(blueviolet, blueviolet,blue);
+    margin: 0px auto;
     padding: 0%;
-    border-right: 3px solid black;
     color: white;
+    border: 2px solid black;
 }
 
 #right{
     float: right;
-    width: calc(70% - 20px);
+    width: calc(70% - 4px);
     margin: auto;
     padding: 0%;
+    border: 2px solid black;
+    background-color: white;
 }
 
 #nombre{
@@ -48,4 +65,74 @@ h1{
     padding: 15px;
     display: block;
     margin: auto;
+}
+
+#left h3{
+    border-top: 2px solid white;
+    font-family: cursive;
+}
+.altura{
+    min-height: 1210px;
+    max-height: 1210px;
+}
+
+.lateral{
+    padding-left: 4%;
+    padding-right: 4%;
+}
+
+.lateral ul{
+    padding-left: 4%;
+}
+
+.lateral p{
+    font-family: sans-serif;
+}
+
+.principal{
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.principal h3{
+    font-family: monospace;
+    font-size: xx-large;
+}
+
+.principal p{
+    font-family: sans-serif;
+}
+
+table{
+    width: 100%;
+}
+
+#idiomas h3{
+    margin-left: 4%;
+    margin-right: 4%;
+}
+
+#idiomas img{
+    width: 45px;
+    height: 25px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 3px;
+}
+
+#idiomas ul{
+    list-style: none;
+}
+
+#contacto ul{
+    list-style: none;
+}
+
+#contacto a{
+    color: white;
+    text-decoration: none;
+}
+#contacto a:hover{
+    color: white;
+    text-decoration: underline;
 }
